@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Ruparel Palacio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img class="main-logo" src="img/Ruparel_Palacio_Logo.png" alt="">
+            </a>
+
+
+            <p class="phone pt-2">
+
+                <i class="fa-solid fa-phone"></i> <span class="">022 2493 0000</span>
+            </p>
+
+        </div>
+    </nav> -->
+
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-4 col-md-3 col-6 pt-2 pb-2">
+                <img class="main-logo" src="img/Ruparel_Palacio_Logo.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-3 col-6">
+                <p class="phone pt-3">
+
+                    <i class="fa-solid fa-phone"></i> <span>022 2493 0000</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="banner">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-4 col-md-7 col-12 position-relative">
+                    <div class="overly position-absolute"></div>
+                    <div class="form-container">
+                        <form>
+                            <div class="mb-3 position-relative">
+                                <label for="exampleInputName" class="form-label ms-3">Name</label>
+                                <input type="text" class="form-control ms-3" id="contact-name"
+                                    aria-describedby="emailHelp">
+                                <p class="inner-text" id="name-error"></p>
+                                <i class=" ii position-absolute top-0  start-0 fa-solid fa-user ms-3"></i>
+
+                            </div>
+                            <div class="mb-3 position-relative">
+                                <label for="exampleInputEmail" class="form-label ms-3">Email</label>
+
+                                <input type="email" class="form-control ms-3" id="contact-email">
+                                <p class="inner-text" id="email-error"></p>
+                                <i class=" ii position-absolute top-0  start-0 fa-solid fa-at ms-3"></i>
+                            </div>
+                            <div class="mb-3 position-relative">
+                                <label for="exampleInputMobile" class="form-label ms-3">Mobile</label>
+                                <input type="tel" class="form-control ms-3" id="contact-phone">
+                                <p class="inner-text" id="phone-error"></p>
+                                <i class=" ii position-absolute top-0  start-0 fa-solid fa-mobile-screen ms-3"></i>
+
+
+                            </div>
+
+                            <div class="text-center sub-btn">
+                                <button type="submit" class="btn mt-2" onclick="return validateForm()">ENQUIRE NOW <i
+                                        class="fa-solid fa-paper-plane"></i></button>
+                                <p id="submit-error"></p>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="mb-5 mt-5">
+        <div class="exp text-center">
+            <h2>EXPEREINCE A ONE IN A MILLION LIFESTYLE AS EXQUISITE AS YOU</h2>
+        </div>
+        <div class="container">
+            <div class="row mt-5 justify-content-center">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="million d-flex justify-content-between align-items-center p-2">
+                        <div class="text-1 text-center rounded">
+                            <p>01</p>
+                        </div>
+                        <div class="text-2 ms-5 ">
+                            <p>2 & 3 BHK Starting at 1.73 & 2.01 cr* Onwords</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="million d-flex justify-content-between align-items-center p-2">
+                        <div class="text-1 text-center rounded">
+                            <p>02</p>
+                        </div>
+                        <div class="text-2 ms-5 ">
+                            <p>2 & 3 BHK Starting at 1.73 & 2.01 cr* Onwords</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="million d-flex justify-content-between align-items-center p-2">
+                        <div class="text-1 text-center rounded">
+                            <p>03</p>
+                        </div>
+                        <div class="text-2 ms-5 ">
+                            <p>2 & 3 BHK Starting at 1.73 & 2.01 cr* Onwords</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 exp-row justify-content-center">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="million d-flex justify-content-between align-items-center p-2">
+                        <div class="text-1 text-center rounded">
+                            <p>04</p>
+                        </div>
+                        <div class="text-2 ms-5 ">
+                            <p>2 & 3 BHK Starting at 1.73 & 2.01 cr* Onwords</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="million d-flex justify-content-between align-items-center p-2">
+                        <div class="text-1 text-center rounded">
+                            <p>05</p>
+                        </div>
+                        <div class="text-2 ms-5 ">
+                            <p>2 & 3 BHK Starting at 1.73 & 2.01 cr* Onwords</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="million d-flex justify-content-between align-items-center p-2">
+                        <div class="text-1 text-center rounded">
+                            <p>06</p>
+                        </div>
+                        <div class="text-2 ms-5 ">
+                            <p>2 & 3 BHK Starting at 1.73 & 2.01 cr* Onwords</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="gallery-sec pt-5 pb-5">
+        <div class="exp text-center">
+            <h2>GALLERY</h2>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="gall-img">
+                        <a target="_blank" href="img/gallery/1.png">
+                            <img src="img/gallery/1.png" alt="">
+                            <p class="gall-text">Images are for a reference purpose</p>
+                        </a>
+                    </div>
+                    <p class="text-center mt-2">Kids Play Aria</p>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="gall-img">
+                        <a target="_blank" href="img/gallery/2.png">
+                            <img src="img/gallery/2.png" alt="">
+                            <p class="gall-text">Images are for a reference purpose</p>
+                        </a>
+                    </div>
+                    <p class="text-center mt-2">Swimming Pool</p>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="gall-img">
+                        <a target="_blank" href="img/gallery/3.png">
+                            <img src="img/gallery/3.png" alt="">
+                            <p class="gall-text">Images are for a reference purpose</p>
+                        </a>
+                    </div>
+                    <p class="text-center mt-2">Leaving Room</p>
+
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3 gallery-row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="gall-img">
+                        <a target="_blank" href="img/gallery/6.png">
+                            <img src="img/gallery/6.png" alt="">
+                            <p class="gall-text">Images are for a reference purpose</p>
+                        </a>
+                    </div>
+                    <p class="text-center mt-2">Private Lift</p>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="gall-img">
+                        <a target="_blank" href="img/gallery/7.png">
+                            <img src="img/gallery/7.png" alt="">
+                            <p class="gall-text">Images are for a reference purpose</p>
+                        </a>
+                    </div>
+                    <p class="text-center mt-2">Gym</p>
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="gall-img">
+                        <a target="_blank" href="img/gallery/8.png">
+                            <img src="img/gallery/8.png" alt="">
+                            <p class="gall-text">Images are for a reference purpose</p>
+                        </a>
+                    </div>
+                    <p class="text-center mt-2">Pool Side Cafeteria</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="location-sec pt-5 pb-5">
+        <div class="exp text-center">
+            <h2>LOCATION ADVANTAGES</h2>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-3 col-md-3 col-6">
+                    <div class="text-center">
+                        <img src="img/location icons/metro.png" alt="">
+                        <p class="pt-3">Proposed Metro Station 100 Mtrs</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6">
+                    <div class="text-center">
+                        <img src="img/location icons/costal road.png" alt="">
+                        <p class="pt-3">Proposed Kandiwali -Nirman Point costal Road- 1 km</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6">
+                    <div class="text-center">
+                        <img src="img/location icons/expressway.png" alt="">
+                        <p class="pt-3">Western Expressway 4.5 Kms</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6">
+                    <div class="text-center">
+                        <img src="img/location icons/railway.png" alt="">
+                        <p class="pt-3">Kandiwali Railway Station 2.2 kms</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row loc-row justify-content-center mt-5">
+                <div class="col-lg-3 col-md-3 col-6">
+                    <div class="text-center">
+                        <img src="img/location icons/school Icon.png" alt="">
+                        <p class="pt-3">Ryan Internation School 3.1 kms</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6">
+                    <div class="text-center">
+                        <img src="img/location icons/movie.png" alt="">
+                        <p class="pt-3">Cinemax Malad, PVR Milap 2.5 kms</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6">
+                    <div class="text-center">
+                        <img src="img/location icons/club icon.png" alt="">
+                        <p class="pt-3">MCA Club 1.5 kms</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="discl pt-5">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <span class="disclaimer"> DISCLAIMER</span><br>
+                    The Real Estate (Regulation and Development) Act, 2016 has been introduced and the rules and
+                    regulations
+                    notified thereunder ("RERA") on 1st May 2017. The process of updating our website is being initiated
+                    to
+                    ensure full compliance with the law.
+                    The advertisements available on the website were created prior to RERA came into force and thus
+                    contains/may contain promotional material related to future phases of the project. The offerings
+                    outlined in those advertisements in whatever form may not be a part of the initial phase of the
+                    project
+                    and may be delivered in later phases or on completion of the Project.
+                    The present content on the website(s), specifications and amenities including but not limited to
+                    visuals, pictures, images/ renderings/maps are purely indicative and informative in nature and only
+                    an
+                    architect’s impression and only indicative of the envisaged development and not actual depiction of
+                    buildings/landscapes etc. And shall not be considered as our offer/promise/commitment of any nature
+                    in
+                    respect of the project the same is subject to approval from local authorities.
+                    The common areas and amenities that have been shown in any advertisement, audio visuals and/or any
+                    type
+                    of communication in any form whatsoever is/are for the entire Project and not specific for any
+                    particular building or phase of the Project and that the common areas and amenities will not be
+                    available on completion of the first phase of the Project or later phases. The common areas and
+                    amenities shall be available for the entire project and will be developed in a phase-wise manner,
+                    over a
+                    period of time.
+                    The details of the projects undertaken by the company including the brochures, plans, elevations,
+                    images, projections, details, descriptions, contents pertaining to the projects are being modified
+                    in
+                    terms of the stipulations/ recommendations under the Real Estate Act 2016 and rules made thereunder
+                    (RERA). You are required to verify all the details, including area, amenities, services, terms of
+                    sales,
+                    payments and other relevant terms independently with the company sales team, by physically visiting
+                    the
+                    project site. Any decision regarding booking of the apartment/s in the project by you, until the
+                    project
+                    is registered under RERA, relying upon the contents of this website shall be solely at your costs
+                    and
+                    consequences. Ruparel Realty and or its directors, employees, are not liable for any consequence of
+                    any
+                    action taken by the viewer relying on such material/information on this web.
+                </div>
+                <div class="mt-3 text-center disc">
+                    <p>. T & C Apply</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="copy text-center pt-2">
+        <p>Copyright @ 2025.All right reserved </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
